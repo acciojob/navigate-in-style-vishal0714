@@ -1,12 +1,16 @@
 /*  your css code here. If applicable */
+.container{
+	background-color: rgb(211, 211, 211);
+	padding:10px;
+}
 .nav{
 	background-color:#D3D3D3;
 }
 li{
 	display: inline;
+	margin-right:1rem;
 }
 ul{
-	padding:10px;
-	margin-right:1rem;
+	display: flex;
 	list-style: none;
 }
